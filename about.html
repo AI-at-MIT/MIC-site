@@ -4,12 +4,42 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./styles/tachyons.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400">
-</head>
-<body  style="font-family: 'Source Sans Pro'">
-<header class="fixed w-100 z-999" style="font-family: 'Source Sans Pro'">
-    <nav class="bg-white db dt w-100 border-box pa2 ph3-l bb-l b--silver">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400">
+    <style>
+        .diamond-shape {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            transform: rotate(45deg)
+        }
 
+        .diamond-holder {
+            position: relative;
+            display: inline-block;
+            width: 240px;
+            height: 240px
+        }
+
+        .diamond-image {
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: rotate(-45deg) scale(1.5)
+        }
+    </style>
+</head>
+
+
+<body style="font-family: 'Nunito Sans'">
+<header class="fixed w-100 z-999">
+    <nav class="bg-white db dt-l w-100 border-box pa1 ph3-l bb-l b--silver">
         <a class="db dtc-l v-mid mid-gray link w-100 w-25-l tc tl-l mb0 mb0-l" href="index.html" title="Home">
             <img src="./images/mic.png" class="dib h2" alt="Site Name">
         </a>
@@ -23,12 +53,15 @@
         </div>
     </nav>
 </header>
-<section class="fl bg-white vh-90">
-    <div class="fl pt5 w-60 pl4">
+<div class="fl bg-white vh-90 pt6 pt5-l" style="min-height:90vh">
+    <div class="fl w-100 w-60-ns pl3 pl4-ns pr4">
         <h1 class="black f2 fw3">
             About the MIT Machine Intelligence Community
         </h1>
-        <p class="black f4 lh-title fw3">We are a community of undergraduates aimed at promoting and fostering the growing interest around machine intelligence on campus. We currently hold weekly discussions on the latest papers in the field, and also plan to organize crash courses, host speakers, and arrange competitions around machine intelligence at MIT.</p>
+        <p class="black f4 lh-title fw3">We are a community of undergraduates aimed at promoting and fostering the
+            growing interest around machine intelligence on campus. We currently hold weekly discussions on the latest
+            papers in the field, and also plan to organize crash courses, host speakers, and arrange competitions around
+            machine intelligence at MIT.</p>
         <p class="black f4 fw3">Mel no ceteros urbanitas. Eu
             usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
             praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
@@ -37,7 +70,7 @@
             putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
             forensibus his te.</p>
     </div>
-    <div class="fl pt5 w-30 pl4 ml5">
+    <div class="fl w-100 w-30-ns pl3 pl4-ns pl6-l">
         <h1 class="black f2 fw3">
             Reach out to us
         </h1>
@@ -51,7 +84,8 @@
             Commonlounge
         </h2>
         <p class="f4">
-            <a href="https://www.commonlounge.com/community/cc63cd88d6644ce99cfb1af8b0e1350f" class="no-underline link dark-red">Follow Us on Commonlounge</a>
+            <a href="https://www.commonlounge.com/community/cc63cd88d6644ce99cfb1af8b0e1350f"
+               class="no-underline link dark-red">Follow Us on Commonlounge</a>
         </p>
         <h2 class="black f3">
             Exec Email
@@ -59,166 +93,203 @@
         <p class="f4">
             <a href="mailto:mic-exec@mit.edu" class="no-underline link dark-red">mic-exec@mit.edu</a>
         </p>
-        
-    </div>
-</section>
-<section>
-    <h2 class="f3 fw4 pa3 mv0 tl pl4">Members</h2>
-    <div class="cf pa2">
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Ali-Amir Aldan</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2017</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="http://mbchang.scripts.mit.edu/mbchang/" target="_blank">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="./images/bios/michael.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Michael Chang</h1>
-                    <h2 class="f5 fw4 gray mt0">Michael Chang is interested in recursively self-improving AI agents. In the summer of 2015 he worked with Professor Honglak Lee at the University of Michigan on object tracking in real videos. Since the fall of 2015 he has worked in the Computational Cognitive Science Group at MIT, researching with Professors Joshua Tenenbaum and Antonio Torralba on learning models of an intelligent agent's environment.</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2017</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Shraman Chaudhuri</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2017</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Prafulla Dhariwal</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2017</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Simanta Gautam</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2017</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Hassan Kane</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2017</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Efe Akengin</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2018</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Jing Lin</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2018</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Andrew Luo</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2019</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Tim Plump</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2019</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Videh Seksaria</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2019</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Parth Shah</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2019</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Ajay Jain</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2020</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">Mirac Suzgun</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Class of 2020</h2>
-                </div>
-            </a>
-        </div>
-        <div class="fl w-50 w-25-m w-20-l pa2">
-            <a class="no-underline" href="github.com">
-                <div class="tc br3 ba b--black-30 grow">
-                    <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
-                    <h1 class="f4 mb2 black">First Last Name</h1>
-                    <h2 class="f5 fw4 gray mt0">Interests, etc, etc, etc, etc</h2>
-                    <h2 class="f5 fw4 gray mt0">Role, etc, etc</h2>
-                </div>
-            </a>
-        </div>
-        
-    </div>
-</section>
 
+    </div>
+</div>
+
+<div class="fl bg-white pt6 pt4-l w-100" style="background-color: #0074c8">
+    <div class="w-100 pl3 pl4-ns pr4">
+        <h1 class="white f1 fw3">
+            Our Members
+        </h1>
+    </div>
+    <div class="fl w-100 ph4 pt4">
+        <div class="fl pl5 tl w-60 mt0">
+            <h1 class=" tr white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+        <div class="fl w-40 tl pl3">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fl w-100 ph4 pt6">
+        <div class="fl w-40 tr pr6">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+        <div class="fl pr5 tl w-60 mt0">
+            <h1 class=" tl white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+    </div>
+    <div class="fl w-100 ph4 pt5">
+        <div class="fl pl5 tl w-60 mt0">
+            <h1 class=" tr white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+        <div class="fl w-40 tl pl3">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fl w-100 ph4 pt6">
+        <div class="fl w-40 tr pr6">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+        <div class="fl pr5 tl w-60 mt0">
+            <h1 class=" tl white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+    </div>
+    <div class="fl w-100 ph4 pt5">
+        <div class="fl pl5 tl w-60 mt0">
+            <h1 class=" tr white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+        <div class="fl w-40 tl pl3">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fl w-100 ph4 pt6">
+        <div class="fl w-40 tr pr6">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+        <div class="fl pr5 tl w-60 mt0">
+            <h1 class=" tl white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+    </div>
+    <div class="fl w-100 ph4 pt5">
+        <div class="fl pl5 tl w-60 mt0">
+            <h1 class=" tr white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+        <div class="fl w-40 tl pl3">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fl w-100 ph4 pt6">
+        <div class="fl w-40 tr pr6">
+            <div class="diamond-holder">
+                <div class="diamond-shape">
+                    <div class="diamond-image" style="background-image: url(./images/bios/placeholder.png)">asd</div>
+                </div>
+            </div>
+        </div>
+        <div class="fl pr5 tl w-60 mt0">
+            <h1 class=" tl white f2 mt0 pr4">First Last</h1>
+            <p class="white pr4">
+                Mel no ceteros urbanitas. Eu
+                usu option propriae expetenda. Liber detraxit consetetur nam et, sint aperiri
+                praesent sea ea. Cu noster placerat liberavisse nec, ius singulis quaestio an.
+                Modus salutandi euripidis est ei. Quo et regione tamquam fierent, errem ludus postea ut pro, te vix
+                meliore
+                voluptatum. Ea adipisci quaestio vis, vix exerci graeci disputando no, movet diceret fabulas et his. Ex
+                putent graecis complectitur quo, mei quem detracto persecuti an. Labores percipitur an nam, homero
+                forensibus his te.
+            </p>
+        </div>
+    </div>
+</div>
+<!--<ul>-->
+<!--<li>-->
+<!--<div class="fl w-70">esrgre</div>-->
+<!--<div class="fl w-30" style="background-image: url(./images/bios/placeholder.png);">-->
+<!--</div>-->
+<!--</li>-->
+<!--</ul>-->
+
+
+</div>
 
 <div class="fl w-100 pt1 pt0-ns bg-black">
     <footer class="tc-l bg-center">
