@@ -1,0 +1,59 @@
+.members li {
+    float: left;
+    width: 33.333%;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    line-height: 0;
+}
+.members li img {
+    display: block;
+    width: 100%
+}
+.members li span {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    text-align: center
+}
+.members li .name {
+    bottom: 16.47059%
+}
+.members li .yearinfo {
+    bottom: 10.78431%
+}
+.members li div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    z-index: 200;
+    background: rgba(51, 153, 255, 0.9);
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s cubic-bezier(0, 0.5, 1, 1);
+}
+.members li div span {
+    top: 11.76471%;
+    font-size: 24px;
+    line-height: 24px;
+}
+.members li div p {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 5px;
+    width: 406px;
+    position: absolute;
+    top: 23.52941%;
+    left: 50%;
+    margin-left: -208px
+}
+.members li:hover div {
+    top: 0;
+    opacity: 1
+}
+.members li:hover .name,
+.members li:hover .infor {
+    display: none
+}
