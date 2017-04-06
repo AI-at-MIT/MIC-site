@@ -53,7 +53,9 @@
     top: 0;
     opacity: 1
 }
-.members li:hover .name,
-.members li:hover .infor {
+.members li:hover .name {
+    display: none
+}
+.members li:hover .yearinfo {
     display: none
 }
