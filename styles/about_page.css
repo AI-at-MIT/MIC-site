@@ -1,15 +1,17 @@
 .members li {
     float: left;
-    width: 33.333%;
+    width: 100%;
     position: relative;
     overflow: hidden;
     color: white;
     line-height: 0;
 }
+
 .members li img {
     display: block;
     width: 100%
 }
+
 .members li span {
     display: block;
     width: 100%;
@@ -17,12 +19,15 @@
     z-index: 1;
     text-align: center
 }
+
 .members li .name {
     bottom: 16.47059%
 }
+
 .members li .yearinfo {
     bottom: 10.78431%
 }
+
 .members li div {
     position: absolute;
     width: 100%;
@@ -34,28 +39,75 @@
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s cubic-bezier(0, 0.5, 1, 1);
 }
+
 .members li div span {
     top: 11.76471%;
-    font-size: 24px;
-    line-height: 24px;
+
 }
+
 .members li div p {
-    font-size: 18px;
-    line-height: 20px;
     padding: 0 5px;
-    width: 406px;
+    width: auto;
     position: absolute;
-    top: 23.52941%;
-    left: 50%;
-    margin-left: -208px
+    top: 13%;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 34em){
+    .members li {
+        float: left;
+        width: 33.333%;
+        position: relative;
+        overflow: hidden;
+        color: white;
+        line-height: 0;
+    }
+
+}
+@media screen and (min-width: 34em) and (max-width: 64rem){
+    .members li div p {
+        padding: 0 5px;
+        width: auto;
+        position: absolute;
+        top: 13%;
+        font-size: 0.62rem;
+        line-height: 1.2;
+        font-weight: 100;
+    }
+}
+@media screen and (min-width: 48em) and (max-width: 56rem){
+    .members li div p {
+        padding: 0 5px;
+        width: auto;
+        position: absolute;
+        top: 13%;
+        font-size: 0.7rem;
+        line-height: 1.2;
+        font-weight: 100;
+    }
+}
+@media screen and (min-width: 64em){
+    .members li div p {
+        padding: 0 5px;
+        width: auto;
+        position: absolute;
+        top: 13%;
+        font-size: 1.25rem;
+        line-height: 1.2;
+        font-weight: 100;
+    }
 }
 .members li:hover div {
     top: 0;
     opacity: 1
 }
+
 .members li:hover .name {
     display: none
 }
+
 .members li:hover .yearinfo {
     display: none
 }
