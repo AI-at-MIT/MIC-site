@@ -1,0 +1,352 @@
+{
+  "events": [
+    {
+      "type": "reading group",
+      "title": "Active Learning for Convolutional Neural Networks: A Core-Set Approach",
+      "host": "Kaveri Nadhamuni",
+      "location": "56-167",
+      "date": "9/11/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1708.00489.pdf" },
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Learning Representations by Maximizing Mutual Information Across Views",
+      "host": "Alex Coventry",
+      "location": "56-167",
+      "date": "9/18/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1906.00910.pdf" },
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Variational Autoencoders and Nonlinear ICA:A Unifying Framework",
+      "host": "Shreyas Balaji",
+      "location": "56-167",
+      "date": "9/25/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1907.04809.pdf" },
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Towards ML you can rely on",
+      "host": "Prof. Aleksander Madry",
+      "location": "56-167",
+      "date": "10/2/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://users.cs.duke.edu/~rongge/stoc2018ml/Madry_STOC_2018.pdf" },
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Doing for our robots what nature did for us",
+      "host": "Prof. Leslie Kaelbling",
+      "location": "56-167",
+      "date": "10/9/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+      "host": "Yoni Shtiebel",
+      "location": "56-167",
+      "date": "10/16/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1803.03635.pdf" },
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "host": "Moin Nadeem",
+      "location": "56-167",
+      "date": "10/23/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1810.04805.pdf" },
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Learning the Depths of Moving People by Watching Frozen People",
+      "host": "Ethan Weber",
+      "location": "56-167",
+      "date": "10/30/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://mannequin-depth.github.io/"},
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Junction Tree Variational Autoencoder for Molecular Graph Generation",
+      "host": "Raj Movva",
+      "location": "56-167",
+      "date": "11/6/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/abs/1802.04364"},
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+      "host": "Robert Cunningham",
+      "location": "56-167",
+      "date": "11/13/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1703.03400.pdf"},
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "Representational Power of Graph Neural Networks",
+      "host": "Prof. Stefanie Jegelka",
+      "location": "56-167",
+      "date": "11/20/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1907.05008.pdf"},
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+      ]
+    },
+    {
+      "type": "reading group",
+      "title": "TBD",
+      "host": "Kristian Georgiev",
+      "location": "56-167",
+      "date": "11/27/19",
+      "time": "5:00 PM",
+      "links": []
+    },
+    {
+      "type": "workshop",
+      "title": "Workshop 1",
+      "host": "Host 1.5",
+      "location": "32-155",
+      "date": "10/17/19",
+      "time": "5 PM",
+      "links": [
+        { "text": "lab", "URL": "bit.ly/ws1slides" },
+        { "text": "slides", "URL": "bit.ly/ws1colab" },
+        { "text": "solutions", "URL": "bit.ly/ws1sols" }
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "Workshop 2",
+      "host": "Host 2.5",
+      "location": "32-155",
+      "date": "10/24/19",
+      "time": "5 PM",
+      "links": [
+        { "text": "lab", "URL": "https://goo.gl/1aer7H" },
+        { "text": "slides", "URL": "https://docs.google.comhttps://goo.gl/dP34S9" }
+      ]
+    }
+  ],
+  "sponsors" : [
+    {
+      "name": "Scale AI",
+      "link_to_logo": "https://findvectorlogo.com/wp-content/uploads/2019/07/scale-ai-inc-vector-logo.png",
+      "link_to_website": "https://scale.com/",
+      "tier": "Tera"
+    },
+    {
+      "name": "ServiceNow",
+      "link_to_logo": "https://image4.owler.com/logo/servicenow_owler_20190513_200533_original.png",
+      "link_to_website": "https://www.servicenow.com/",
+      "tier": "Tera"
+    },
+    {
+      "name": "Lyft Level 5",
+      "link_to_logo": "https://miro.medium.com/max/3150/1*U5wGb7jt3YfFF2NUHnkfUw.png",
+      "link_to_website": "https://level5.lyft.com/",
+      "tier": "Giga"
+    },
+    {
+      "name": "QuantCo",
+      "link_to_logo": "https://avatars2.githubusercontent.com/u/15262568?s=280&v=4",
+      "link_to_website": "https://www.quantco.com/",
+      "tier": "Giga"
+    },
+    {
+      "name": "Intel",
+      "link_to_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Intel-logo.svg/1280px-Intel-logo.svg.png",
+      "link_to_website": "https://www.intel.com/content/www/us/en/homepage.html",
+      "tier": "Kilo"
+    },
+    {
+      "name": "Cerebras",
+      "link_to_logo": "https://cdn.nanalyze.com/uploads/2017/05/Cerebras-logo.png",
+      "link_to_website": "https://www.cerebras.net/",
+      "tier": "Startup"
+    }
+    ],
+  "people": {
+    "exec": [
+      {
+        "name": "Ishani Thakur",
+        "profile_pic": "static/img/bio/ishani1.jpg",
+        "bio": "Ishani is a junior at MIT studying Computer Science. She has previously worked at companies such as Lyft Level 5 doing mapping and prediction projects. Her research is mostly centered around perception and prediction for autonomous robots. She helps oversee the various initiatives for MIC as a whole and is super excited about engaging with and supporting the ML community!",
+        "position": "Co-President"
+      },
+      {
+        "name": "Kristian Georgiev",
+        "profile_pic": "static/img/bio/kristian.jpg",
+        "bio": "Kris is a junior studying math and computer science. He is interested in the applications of probability in ML and theoretical ML in general.",
+        "position": "Co-President"
+      },
+      {
+        "name": "Isaac Wolverton",
+        "profile_pic": "static/img/bio/isaac.png",
+        "bio": "Isaac Wolverton is a Junior at MIT in course 6-3. He is the finance director the MIC, and works primarily on securing corporate sponsorships for the club. He enjoys mountain biking and hanging out with friends in his free time. He is currently doing research through the MIT Quest for Intelligence on using reinforcement learning to build nuclear reactor cores. The project aims to lower the cost of nuclear energy to make it a more accessible form of clean energy. If you have any questions about his research or MIT life in general, don’t hesitate to reach out (isaacw@mit.edu). He loves a good conversation! ",
+        "position": "Finance Director"
+      },
+      {
+        "name": "Kaveri Nadhamuni",
+        "profile_pic": "static/img/bio/kaveri.jpg",
+        "bio": "Kaveri is a junior studying computer science at MIT. She is currently doing research on certifiably robust deep learning models in the Madry Lab in CSAIL. In her free time she likes running, singing, and taking long walks along the Charles.",
+        "position": "Head of Reading Group"
+      },
+      {
+        "name": "Jason Zhao",
+        "profile_pic": "static/img/bio/jason.jpg",
+        "bio": "Jason Zhao is a sophomore at MIT studying 6-3. He has a very broad interest in machine learning, ranging from autonomous driving to NLP. As the co-chair of workshops, he's looking forward to put his teaching skills to the test while learning far more about amazing discoveries in ML. In his free time, he likes playing tennis and eating frozen mangoes. He's excited to meet all of the MIC community and learn about the interests and passions of everyone!",
+        "position": "Workshops Co-Chair"
+      },
+      {
+        "name": "Raj Movva",
+        "profile_pic": "static/img/bio/raj.jpg",
+        "bio": "Raj is a sophomore and co-chair of the MIC Workshops committee, which involves writing and presenting lectures and labs on various machine learning topics. Raj is especially excited about using ML for science, and has previously worked on convolutional neural networks for genomics and graph neural networks for chemistry. He's also interested in neural network interpretability and model efficiency/compression. Raj's other hobbies include lifting, cooking, and tennis.",
+        "position": "Workshops Co-Chair"
+      },
+      {
+        "name": "Julia Moseyko",
+        "profile_pic": "static/img/bio/julia.JPG",
+        "bio": "Julia is a second year student pursuing a degree in Computer Science and Engineering (6-3). She is currently an undergraduate researcher at MIT CSAIL, working on end-to-end reinforcement learning for autonomous vehicles by training in data-driven simulation and transferring to real-world environments. Over the past two summers, Julia worked on vision-based object detection while interning at Optimus Ride and Udelv, two self-driving vehicle startups. Outside of MIC, Julia is the Managing Director of the SBC Entrepreneurship Initiative and enjoys working on personal projects with Chloe Loughridge in the machine intelligence and entrepreneurial space. ",
+        "position": "Head of Generator"
+      },
+      {
+        "name": "Madeline Zhang",
+        "profile_pic": "static/img/bio/maddie.jpg",
+        "bio": "Madeline Zhang is a senior at MIT studying computer science. She's interested in Bayesian methods, programming video games, and web development. On campus, she's also involved in a cappella, DPhiE, Model United Nations, and Code For Good. In her free time, Madeline enjoys watching cat videos, working out, and drinking bubble tea.",
+        "position": "Director of Marketing"
+      },
+      {
+        "name": "Aayush Gupta",
+        "profile_pic": "static/img/bio/aayush.jpg",
+        "bio": "Aayush is a sophomore who enjoys researching and implementing projects, especially related to machine learning. He's created an autonomous drone, and presented at conferences. Read more at aayushg.com!",
+        "position": "Social Chair"
+      },
+      {
+        "name": "Nikhil Murthy",
+        "profile_pic": "static/img/bio/nikhil.jpg",
+        "bio": "Nikhil is a junior at MIT studying Computer Science. He has previously worked on active learning and vision projects at companies including NVIDIA and Intel, and currently researches illusory motion in vision models. He was the Co-President of MIC last year and is running Labs this year. Outside of school, he likes hiking, taking artsy photos and long distance running.",
+        "position": "Co-Head of Labs"
+      },
+      {
+        "name": "Moin Nadeem",
+        "profile_pic": "static/img/bio/moin.jpg",
+        "bio": "Moin is a senior in EECS, and is interested in natural language processing, representation learning, and startups. Previously, he has done work in recommender systems, linguistic bias, and automated fact checking. On the side, he dreams about startups.",
+        "position": "Co-Head of Labs"
+      }
+    ],
+    "board": [
+            {
+        "name": "Elina Sendonaris",
+        "profile_pic": "static/img/bio/elina.jpg",
+        "bio": "Elina is a senior studying physics and electrical engineering at MIT. Quantum information theory is her focus, and she is interested in the intersection of that and artificial intelligence. She enjoys making websites and and composing music in her free time.",
+        "position": "Webmaster"
+      },
+
+        {
+          "name": "Joanne Yuan",
+          "profile_pic": "static/img/bio/joanne.jpg",
+          "bio": "Joanne is a sophomore studying computer science at MIT. She's interested in machine learning and quantitative trading and, in her free time, she enjoys reading, ice skating, and trying new kinds of food.",
+          "position": "Workshop TA"
+        },
+        {
+          "name": "Paul Meierling",
+          "profile_pic": "static/img/bio/paul.jpeg",
+          "bio": "Paul is a 2020 MBA Student who is excited about real-world applications of machine learning. In particular he is working on a computer vision project to determine wether or not houses need to be painted",
+          "position": "Generator"
+        },
+        {
+          "name": "Natasha Maniar",
+          "profile_pic": "static/img/bio/natasha.jpg",
+          "bio": "Natasha is a freshman, currently majoring in computer science and potentially minoring in business management. She is interested in the applications of machine learning to solve real world challenges. At MIT, Natasha is also an associate member for Women in Business and Leaders and part of the Fixation dance team.",
+          "position": "Generator Committee - External Relations"
+        },
+        {
+          "name": "Ishana Shastri",
+          "profile_pic": "static/img/bio/ishana.jpg",
+          "bio": "Ishana is a freshman at MIT studying computer science and math. She is primarily interested in the application of machine learning in healthcare, and has conducted multiple research projects where she developed novel machine learning frameworks to diagnose and predict breast cancer, cardiovascular diseases, and other medical issues. In her free time, Ishana loves to dance, play the ukulele, and conduct independent projects. She is currently organizing the Generator competition, and is excited to delve deeper into the field of machine learning as part of MIC!",
+          "position": "Generator Committee"
+        },
+        {
+          "name": "Matthew Morris",
+          "profile_pic": "static/img/bio/matthew-morris.jpeg",
+          "bio": "Matthew is a freshman from outside of Baltimore, with a strong passion for mathematics and computer science! He loves learning in general, and one of his favorite areas of ML is NLP, especially with the exciting work being done in pre-trained models. In his free time he plays and listens to music from a variety of genres, including rock, classical, jazz and hip-hop.",
+          "position": "Workshop TA"
+        },
+        {
+          "name": "Shreya Karpoor",
+          "profile_pic": "static/img/bio/shreya.png",
+          "bio": "Shreya is a freshman at MIT studying electrical engineering and computer science. She is an undergraduate researcher at CSAIL working on sentence simplification in natural language processing. On campus, she's involved in fencing, the Tech, and enjoys singing in her free time!",
+          "position": "Generator Committee"
+        },
+        {
+          "name": "Jose Lavariega",
+          "profile_pic": "static/img/bio/jose.jpeg",
+          "bio": "Jose is an Aerospace Engineering and Statistics student. He is interested in control problems and autonomy applied to nano satellites.",
+          "position": "Marketing Committee"
+        },
+        {
+          "name": "Arjun Gupta",
+          "profile_pic": "static/img/bio/arjun.png",
+          "bio": "Arjun is a Master's student at MIT doing research in the intersection of Robotics and Machine Learning.",
+          "position": "Reading Group Committee"
+        },
+        {
+          "name": "Vivek Bhupatiraju",
+          "profile_pic": "static/img/bio/vivek.jpeg",
+          "bio": "Vivek is a sophomore at MIT studying computer science and mathematics. In addition to ML, he is also interested in applied cryptography and combinatorial optimization. Outside of CS, he is also involved in the Sloan Business Club and Camp Kesem!",
+          "position": "Reading Group Committee"
+        },
+        {
+          "name": "Adib Hasan",
+          "profile_pic": "static/img/bio/adib.jpg",
+          "bio": "Adib Hasan is pursuing a double major in computer science and mathematics. His interests include interpretability of deep neural networks and machine learning augmented algorithms.",
+          "position": "Workshop TA"
+        },
+        {
+          "name": "Michael Silver",
+          "profile_pic": "static/img/bio/michael.jpeg",
+          "bio": "Michael is a senior studying computer science at MIT and is a member of the MIC DevOps committee. While at school, he's enjoyed working on systems and AI in his research and used to organize HackMIT in his spare time. Outside of that, he's an avid windsurfer and enjoys traveling.",
+          "position": "DevOps Committee"
+        }
+      ]
+  }
+}

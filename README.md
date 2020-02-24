@@ -1,2 +1,2 @@
-# MIC-site
-The website for the MIT Machine Intelligence Community.
+# Website (dev)
+Most up-to-date version of MIC website
