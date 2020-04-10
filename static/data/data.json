@@ -21,7 +21,6 @@
       "time": "5:00 PM",
       "links": [
         { "text": "paper", "URL": "https://arxiv.org/pdf/1906.00910.pdf" },
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
       ]
     },
     {
@@ -33,20 +32,17 @@
       "time": "5:00 PM",
       "links": [
         { "text": "paper", "URL": "https://arxiv.org/pdf/1907.04809.pdf" },
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
       ]
     },
     {
       "type": "reading group",
-      "title": "Towards ML you can rely on",
+      "title": "A New Perspective on Adversarial Perturbations",
       "host": "Prof. Aleksander Madry",
       "location": "56-167",
       "date": "10/2/19",
       "time": "5:00 PM",
       "links": [
-        { "text": "paper", "URL": "https://users.cs.duke.edu/~rongge/stoc2018ml/Madry_STOC_2018.pdf" },
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
-      ]
+       ]
     },
     {
       "type": "reading group",
@@ -56,19 +52,19 @@
       "date": "10/9/19",
       "time": "5:00 PM",
       "links": [
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+        { "text": "slides", "URL": "https://www.dropbox.com/s/prw582tc7x7b554/MIT-MIC-19.pdf?dl=0" }
       ]
     },
     {
       "type": "reading group",
-      "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+      "title": "Stabilizing the Lottery Ticket Hypothesis",
       "host": "Yoni Shtiebel",
       "location": "56-167",
       "date": "10/16/19",
       "time": "5:00 PM",
       "links": [
-        { "text": "paper", "URL": "https://arxiv.org/pdf/1803.03635.pdf" },
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1903.01611.pdf" },
+        { "text": "slides", "URL": "https://drive.google.com/file/d/1gnFzZxTlBWbmI6AIgNfCqLM3oPGFTPmY/view?usp=sharing" }
       ]
     },
     {
@@ -79,8 +75,8 @@
       "date": "10/23/19",
       "time": "5:00 PM",
       "links": [
-        { "text": "paper", "URL": "https://arxiv.org/pdf/1810.04805.pdf" },
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1906.08237.pdf" },
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1Hlxd5BLP9Kc9CqPziBzhd9001_ucEKH9rICjhdhC_io/edit?usp=sharing" }
       ]
     },
     {
@@ -92,7 +88,7 @@
       "time": "5:00 PM",
       "links": [
         { "text": "paper", "URL": "https://mannequin-depth.github.io/"},
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1AYq0EL6X0_O9Twsdt_q5iNGMikRktEUofmSY-lI2PNI/edit" }
       ]
     },
     {
@@ -104,7 +100,7 @@
       "time": "5:00 PM",
       "links": [
         { "text": "paper", "URL": "https://arxiv.org/abs/1802.04364"},
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/14phWzcZ1192zbPlhTr0NIsAoCRcJV--3gJnRYMmuJrM/edit?usp=sharing" }
       ]
     },
     {
@@ -116,7 +112,18 @@
       "time": "5:00 PM",
       "links": [
         { "text": "paper", "URL": "https://arxiv.org/pdf/1703.03400.pdf"},
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
+        ]
+    },
+     {
+      "type": "reading group",
+      "title": "Review of speech synthesis backend: WaveNet, WaveRNN and related papers",
+      "host": "Kristian Georgiev",
+      "location": "56-167",
+      "date": "11/20/19",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1609.03499.pdf"},
+        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1YjPbgO4NhDZWnZcplYz1M40qoV-A_yDR12BUpPNZyyo/edit?usp=sharing" }
       ]
     },
     {
@@ -124,21 +131,43 @@
       "title": "Representational Power of Graph Neural Networks",
       "host": "Prof. Stefanie Jegelka",
       "location": "56-167",
-      "date": "11/20/19",
-      "time": "5:00 PM",
-      "links": [
-        { "text": "paper", "URL": "https://arxiv.org/pdf/1907.05008.pdf"},
-        { "text": "slides", "URL": "https://docs.google.com/presentation/d/1ro2s29Q79YwPsSo0ND27woUEVV4tc8dAgAIB6kf8B2o/edit?usp=sharing" }
-      ]
-    },
-    {
-      "type": "reading group",
-      "title": "TBD",
-      "host": "Kristian Georgiev",
-      "location": "56-167",
       "date": "11/27/19",
       "time": "5:00 PM",
-      "links": []
+      "links": [
+        { "text": "slides", "URL": "https://drive.google.com/file/d/1EraeebBK7jCCDS2_AePucu4UE-7cyjYw/view?usp=sharing" }
+      ]
+    },
+        {
+      "type": "reading group",
+      "title": "Towards Learned Algorithms, Data Structures, and Systems",
+      "host": "Prof. Tim Kraska",
+      "location": "56-167",
+      "date": "2/19/2020",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "slides", "URL": "https://drive.google.com/file/d/1m9m6uh8qYBen1ezT9lpjAXCjeixeqwcR/view?usp=sharing" }
+      ]
+    },    {
+      "type": "reading group",
+      "title": "Invertible Residual Networks",
+      "host": "Kaveri Nadhamuni",
+      "location": "56-167",
+      "date": "3/4/2020",
+      "time": "5:00 PM",
+      "links": [
+        {"text":"paper", "URL":"https://arxiv.org/pdf/1811.00995.pdf"},
+        { "text": "slides", "URL": "https://drive.google.com/file/d/1EraeebBK7jCCDS2_AePucu4UE-7cyjYw/view?usp=sharing" }
+      ]
+    },    {
+      "type": "reading group",
+      "title": "A Unified Analysis of Extra-gradient and Optimistic Gradient Methods for Saddle Point Problems: Proximal Point Approach",
+      "host": "Kristian Geogiev",
+      "location": "56-167",
+      "date": "4/10/20",
+      "time": "5:00 PM",
+      "links": [
+        { "text": "paper", "URL": "https://arxiv.org/pdf/1901.08511.pdf" }
+      ]
     },
     {
       "type": "workshop",
